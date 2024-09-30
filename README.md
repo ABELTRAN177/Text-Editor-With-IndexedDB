@@ -2,7 +2,7 @@
 
 
   ## Description
-  With the help of our instructor for this assignment, we were to develop an 
+  With the help of our instructor for this assignment, we were to develop a text editor that runs in the browser w/ or w/out the internet. Using IndexedDb database, we are storing and retriving data to provide persistent options not supported by the browser. 
   
   ## Table of Contents
   1. [Description](#description)
@@ -25,7 +25,7 @@
     run node or node server.js in the terminal/integrated terminal 
 
   ## Render
-    
+    https://text-editor-with-indexeddb.onrender.com
   ## Reach Out
     If you have any questions, please feel free to reach out to me on GitHub at [@abeltran177](https://github.com/abeltran177) or via email at angel.beltran17@gmail.com.
   
