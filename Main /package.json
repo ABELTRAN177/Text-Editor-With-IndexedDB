@@ -4,13 +4,13 @@
   "description": "",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
-    "start": "npm run build && npm run start:server",
-    "server": "cd server && nodemon server.js --ignore client",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server nodemon server.js --ignore client",
     "build": "cd client && npm run build",
     "install": "cd server && npm i && cd ../client && npm i",
-    "client": "cd client && npm start",
-    "start:server": "cd server && node server.js"
+    "client": "cd client && npm start"
   },
+
   
   "dependencies": {
     "express": "^4.17.1"
