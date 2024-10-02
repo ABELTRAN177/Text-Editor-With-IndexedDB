@@ -1,18 +1,12 @@
 {
-  "name": "src",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "JATE",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server",
+    "build": "webpack --mode production",
+    "start": "webpack --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "code-mirror-themes": "^1.0.0",
-    "idb": "^8.0.0"
-  },
+  "author": "2U",
+  "license": "UNLICENSED",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
@@ -29,5 +23,9 @@
     "webpack-dev-server": "^4.0.0",
     "webpack-pwa-manifest": "^4.3.0",
     "workbox-webpack-plugin": "^6.2.4"
+  },
+  "dependencies": {
+    "code-mirror-themes": "^1.0.0",
+    "idb": "^6.1.2"
   }
 }
