@@ -13,8 +13,7 @@
   6. [License](#license)
 
   ## Installation
-    for best usage install npm i in the terminal
-    
+     cd Main/server && npm i    
   ## Usage
     best if used within the terminal or integrated terminal 
     
@@ -22,7 +21,7 @@
     Manny/ Angel Beltran 
   
   ## Testing
-    run node or node server.js in the terminal/integrated terminal 
+    cd Main/server && node server
 
   ## Render
     https://text-editor-with-indexeddb.onrender.com
